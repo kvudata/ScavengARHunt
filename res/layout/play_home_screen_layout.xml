@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indiana_jones_movie_wallpaper_cropped" >
+
+    <TextView
+        android:id="@+id/player_description"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/background_description_2ndscreen"
+        android:padding="50dp"
+        android:text="Choose an option to the left!"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/player_description"
+        android:layout_alignBottom="@+id/player_description"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp" >
+
+        <RadioButton
+            android:id="@+id/create_hunt_button"
+            style="@style/ParchmentStyle"
+            android:text="@string/CreateHuntButton"
+            android:background="@drawable/background_description_2ndscreen"
+            android:paddingLeft="60dp" />
+
+        <RadioButton
+            android:id="@+id/join_hunt_button"
+            style="@style/ParchmentStyle"
+            android:text="@string/JoinHuntButton"
+            android:background="@drawable/background_description_2ndscreen"
+            android:paddingLeft="60dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/player_description"
+        android:layout_marginBottom="40dp"
+        style="@style/ParchmentStyle"
+        android:text="@string/GoButton" />
+
+</RelativeLayout>

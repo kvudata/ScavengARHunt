@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HomeScreen wont change!</string>
+    <string name="app_name">ScavengerHunt</string>
+    <string name="PlayButton">Play</string>
+    <string name="HelpButton">Help</string>
+    <string name="AboutUsButton">About Us</string>
+    <string name="CreateHuntButton">Create Hunt!</string>
+    <string name="JoinHuntButton">Join Hunt!</string>
+    <string name="GoButton">Go!</string>
+    <string name="CreateHuntScreenTitle">To create a hunt, start by making your clues!</string>
+    <string name="TakePictureButton">Take Picture of Clue</string>
+    <string name="DiscardButton">Discard</string>
+    <string name="LoadFromFileButton">Load Clue from File</string>
+    <string name="AugmentButton">Augment the clue!</string>
+    <string name="submitGuessButton">Submit</string>
+    <string name="AddTextButton">Add Text!</string>
+    <string name="AddGraffitiButton">Add Graffiti!</string>
+    <string name="DoneButton">Done!</string>
+    <string name="AugmentScreenHeader">Augment Your Clue With a Clue!</string>
+    <string name="AugClueImgDesc">Image view showing augmentation to use on clue</string>
+    
+    <string name="dummy_paragraph">Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit. Vivamus viverra, odio in eleifend imperdiet, lectus 
+        orci molestie eros, ac fermentum erat enim vel tortor. Donec venenatis,
+         sapien vel ornare tincidunt, lacus augue iaculis risus, malesuada
+         sodales nulla erat vel felis. Praesent varius turpis non neque
+         eleifend sed elementum sapien pellentesque. Praesent consequat,
+         magna eu adipiscing rhoncus, dui nisi sollicitudin diam, sed convallis
+         magna nunc in orci. In ligula nisl, aliquam id semper eu, commodo ut
+         enim. Suspendisse nec nibh felis, ac malesuada diam. Nam condimentum
+         vulputate lectus vel accumsan. Phasellus et enim est, eu placerat
+         ipsum. Fusce augue est, facilisis ac hendrerit eu, ullamcorper at
+         elit. Suspendisse potenti. Donec at mauris orci. Vestibulum in lorem
+         id magna aliquet facilisis. In massa leo, condimentum id fringilla ac,
+         dictum quis orci. Ut eget lorem nisi. Donec lacinia mi mollis orci
+         rhoncus eget venenatis lacus malesuada. Sed viverra, neque sed
+         sagittis euismod, tortor felis interdum lorem, sed pharetra odio
+         risus id mi.</string>
+
+</resources>

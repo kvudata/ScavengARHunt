@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="ParchmentStyle">
+	<item name="android:layout_width">200dp</item>
+	<item name="android:layout_height">75dp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:typeface">serif</item>
+	<item name="android:textColor">@android:color/black</item>
+	<item name="android:textSize">30sp</item>
+	<item name="android:paddingLeft">30dp</item>
+	<item name="android:paddingRight">30dp</item>
+	<item name="android:background">@drawable/parchment_scroll_horiz_bgnd_cropped</item>
+</style>
+
+</resources>

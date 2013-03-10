@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/uncharted_dagger" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/CreateHuntScreenTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+    <FrameLayout
+        android:id="@+id/cam_frame_layout"
+        android:layout_width="640dp"
+        android:layout_height="480dp"
+        android:layout_centerInParent="true" >
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/take_pic_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/take_picture_button"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_gravity="right"
+                android:background="@drawable/parchment_scroll_horiz_bgnd_cropped"
+                android:text="@string/TakePictureButton"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/discard_button"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_gravity="right"
+                android:background="@drawable/parchment_scroll_horiz_bgnd_cropped"
+                android:text="@string/DiscardButton"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/load_clue_button"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:background="@drawable/parchment_scroll_horiz_bgnd_cropped"
+            android:text="@string/LoadFromFileButton"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/pic_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/augment_button"
+            android:layout_width="197dp"
+            android:layout_height="75dp"
+            android:background="@drawable/parchment_scroll_horiz_bgnd_cropped"
+            android:clickable="false"
+            android:text="@string/AugmentButton"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="197dp"
+            android:layout_height="75dp"
+            android:background="@drawable/parchment_scroll_horiz_bgnd_cropped"
+            android:text="@string/DoneButton"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</RelativeLayout>
