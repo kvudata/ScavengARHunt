@@ -1,3 +1,3 @@
 ScavengARHunt
 =============
-An augmented reality scavenger hunt.
+An augmented reality scavenger hunt using natural feature recognition.
